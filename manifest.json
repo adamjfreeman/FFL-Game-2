@@ -1,0 +1,38 @@
+{
+	"short_name": "Lilly Color Block Game",
+	"name": "Lilly Color Block Game",
+	"description": "Race against the clock to match as many blocks as you can.  Tap connecting blocks of the same color to make them disappear.  Match 5 or more at once to extend time and unlock boosters!  What’s your best score?",
+	"icons": [
+		{
+			"src": "./assets/__Icon128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "./assets/__Icon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./assets/__Icon196.png",
+			"type": "image/png",
+			"sizes": "196x196"
+		},
+		{
+			"src": "./assets/__Icon256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "./assets/__Icon512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "./index.html",
+	"background_color": "#000000",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"scope": "./",
+	"theme_color": "#ee3a29"
+}

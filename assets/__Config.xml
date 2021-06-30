@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<settings>
+		<font name="dinpro-bold-webfont" bold="false" />
+		<asciiArt>
+ _____ _____ __    _____ _____    _____ __    _____ _____ _____
+|     |     |  |  |     | __  |  | __  |  |  |     |     |  |  |
+|   --|  |  |  |__|  |  |    -|  | __ -|  |__|  |  |   --|    -|
+|_____|_____|_____|_____|__|__|  |_____|_____|_____|_____|__|__|
+
+</asciiArt>
+		<audioHoldDelay>5000</audioHoldDelay>
+		<urls blankWindow="true">
+			<website>https://www.t1everydaymagic.com/</website>
+			<author>https://hypersurge.com</author>
+		</urls>
+		<googleAnalytics id="UA-22406337-54" enabled="true" />
+		<instructionsCompulsory enabled="false" />
+		<sponsor enabled="false" />
+		<plainButtons enabled="false" />
+		<audio effects="true" music="true" />
+	</settings>
+	<gui>
+		<audioHoldMessage>PRESS TO CONTINUE</audioHoldMessage>
+		<buttons>
+			<continue>Continue</continue>
+			<replay>Play Again</replay>
+			<instructions>How To Play</instructions>
+			<start>Play Now</start>
+			<exit>End Game</exit>
+			<website>Discover</website>
+			<testMode>
+				<finish>Finish Game</finish>
+			</testMode>
+		</buttons>
+		<modals>
+			<settings>
+				<title>Settings</title>
+			</settings>
+		</modals>
+		<scenes>
+			<instructions>
+				<title>How To Play</title>
+				<message><![CDATA[Race against the clock to match as many blocks as you can.  Tap connecting blocks of the same color to make them disappear.  Match 5 or more at once to extend time and unlock boosters!  What’s your best score?]]></message>
+			</instructions>
+			<game>
+				<hudTimer>
+					<title>Timer</title>
+				</hudTimer>
+				<hudScore>
+					<title>Score</title>
+					<results>You Scored</results>
+					<best>Best</best>
+				</hudScore>
+			</game>
+			<results>
+				<title>Game Over</title>
+			</results>
+		</scenes>
+	</gui>
+</data>
